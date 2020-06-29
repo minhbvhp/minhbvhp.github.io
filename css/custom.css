@@ -1,0 +1,76 @@
+body {
+    color: black;
+}
+
+@media(min-width: 768px) {
+    .nav-custom {
+        margin-right: 20px;
+    }
+}
+
+@media(max-width: 767px) {
+    .nav-custom {
+        border-top: 1px solid #e9bfbf;
+    }
+
+    .carousel-item-custom {
+        height: 10rem;
+    }
+}
+
+
+a.nav-link:hover {
+    background-color: #8ec8f1;
+}
+
+#chung-chi {
+    position: fixed;
+    top: 0.5rem;
+    right: 0.5rem;
+    max-width: 8%;
+}
+
+.carousel-item-custom {
+    margin-top: 1em;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23005baa' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+   
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23005baa' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-indicators .active {
+    background-color: #005baa;
+}
+
+.h1-custom {
+    font-size: 1.7rem;
+    margin-bottom: 5rem;
+    padding: 1.2rem;
+}
+
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 1px;
+    z-index: 99;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#back-to-top:hover {
+    color: #555;
+}
+
+#zalo {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 100;
+    cursor: pointer;
+    padding: 10px;
+}
