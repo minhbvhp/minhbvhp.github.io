@@ -75,6 +75,6 @@ a.nav-link:hover {
     padding: 10px;
 }
 
-.card {
+.card-header {
     cursor: pointer;
 }
