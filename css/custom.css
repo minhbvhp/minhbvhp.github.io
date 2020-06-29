@@ -56,7 +56,7 @@ a.nav-link:hover {
     display: none;
     position: fixed;
     bottom: 10px;
-    right: 1px;
+    right: 10px;
     z-index: 99;
     cursor: pointer;
     padding: 10px;
@@ -68,8 +68,8 @@ a.nav-link:hover {
 
 #zalo {
     position: fixed;
-    bottom: 10px;
-    left: 10px;
+    bottom: 60px;
+    right: 1px;
     z-index: 100;
     cursor: pointer;
     padding: 10px;
@@ -77,4 +77,8 @@ a.nav-link:hover {
 
 .card-header {
     cursor: pointer;
+}
+
+.product-detail {
+    margin-bottom: 15px;
 }
