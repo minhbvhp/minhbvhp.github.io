@@ -82,3 +82,7 @@ a.nav-link:hover {
 .product-detail {
     margin-bottom: 15px;
 }
+
+tr:nth-child(even) {
+    background: #e7e7e7;
+}
