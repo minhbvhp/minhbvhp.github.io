@@ -97,3 +97,12 @@ tr:nth-child(even) {
 .an-gia-premium, .an-gia-scope{
     font-size: smaller;
 }
+
+.direction {
+    float: right;
+}
+
+.premium {
+    padding: 0px;
+    padding-left: 1px;
+}
