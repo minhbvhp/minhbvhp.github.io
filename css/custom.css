@@ -88,12 +88,6 @@ tr:nth-child(even) {
 }
 
 .more_info {
-    border-bottom: 1px dotted #000;
-    cursor: pointer;
-    position: relative;
-}
-
-.more_info .title {
     background: silver;
     padding: 1px;
     font-weight: normal;
