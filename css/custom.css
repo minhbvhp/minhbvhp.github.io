@@ -97,9 +97,8 @@ tr:nth-child(even) {
     position: absolute;
     top: 20px;
     background: silver;
-    padding: 4px;
-    left: 0;
-    white-space: nowrap;
+    padding: 0px;
+    right: -50px;
 }
 
 .an-gia-premium, .an-gia-scope{
