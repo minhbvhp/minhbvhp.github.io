@@ -99,10 +99,12 @@ tr:nth-child(even) {
 }
 
 .direction {
-    float: right;
+    padding-left: 0px;
+    float: inline-start;
 }
 
 .premium {
     padding: 0px;
     padding-left: 1px;
+    margin-right: 10px;
 }
