@@ -86,3 +86,12 @@ a.nav-link:hover {
 tr:nth-child(even) {
     background: #e7e7e7;
 }
+
+.no-cover {
+    color: blue;
+    cursor: pointer;
+}
+
+.an-gia-premium, .an-gia-scope{
+    font-size: smaller;
+}
