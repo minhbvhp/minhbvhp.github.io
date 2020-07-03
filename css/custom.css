@@ -88,8 +88,8 @@ tr:nth-child(even) {
 }
 
 .more_info {
-    background: silver;
     padding: 1px;
+    left: 10px
     font-weight: normal;
     font-style: italic;
 }
