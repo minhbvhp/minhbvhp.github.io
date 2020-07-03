@@ -87,9 +87,19 @@ tr:nth-child(even) {
     background: #e7e7e7;
 }
 
-.no-cover {
-    color: blue;
+.more_info {
+    border-bottom: 1px dotted #000;
     cursor: pointer;
+    position: relative;
+}
+
+.more_info .title {
+    position: absolute;
+    top: 20px;
+    background: silver;
+    padding: 4px;
+    left: 0;
+    white-space: nowrap;
 }
 
 .an-gia-premium, .an-gia-scope{
