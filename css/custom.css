@@ -6,6 +6,10 @@ body {
     .more-info {
         font-size: x-small;
     }
+
+    body {
+        font-size: small;
+    }
 }
 
 @media(min-width: 768px) {
