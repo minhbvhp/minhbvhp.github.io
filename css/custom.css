@@ -67,7 +67,7 @@ body {
 }
 
 ul {
-    margin-left: 5px !important;
+    margin-left : 5px !important;
     padding-left: 5px !important;
 }
 
@@ -75,10 +75,14 @@ a.nav-link:hover {
     background-color: #8ec8f1;
 }
 
+footer {
+    border-top: 1px solid #bc931f;
+}
+
 #chung-chi {
-    position: fixed;
-    top: 0.5rem;
-    right: 0.5rem;
+    position : fixed;
+    top      : 0.5rem;
+    right    : 0.5rem;
     max-width: 8%;
 }
 
@@ -99,19 +103,19 @@ a.nav-link:hover {
 }
 
 .h1-custom {
-    font-size: 1.7rem;
-    margin-bottom: 3rem;
-    padding: 1.2rem;
+    font-size    : 1.7rem;
+    margin-bottom: 40px;
+    margin-top   : 0px;
 }
 
 #back-to-top {
-    display: none;
+    display : none;
     position: fixed;
-    bottom: 10px;
-    right: 10px;
-    z-index: 99;
-    cursor: pointer;
-    padding: 10px;
+    bottom  : 10px;
+    right   : 10px;
+    z-index : 99;
+    cursor  : pointer;
+    padding : 10px;
 }
 
 #back-to-top:hover {
@@ -120,11 +124,11 @@ a.nav-link:hover {
 
 #zalo {
     position: fixed;
-    bottom: 60px;
-    right: 1px;
-    z-index: 100;
-    cursor: pointer;
-    padding: 10px;
+    bottom  : 60px;
+    right   : 1px;
+    z-index : 100;
+    cursor  : pointer;
+    padding : 10px;
 }
 
 .card-header {
@@ -140,11 +144,11 @@ tr:nth-child(even) {
 }
 
 .more-info {
-    color: #6c757d;
-    padding: 1px;
-    left: 10px;
+    color      : #6c757d;
+    padding    : 1px;
+    left       : 10px;
     font-weight: normal;
-    font-style: italic !important;
+    font-style : italic !important;
 }
 
 .an-gia-premium, .an-gia-scope{
@@ -152,13 +156,13 @@ tr:nth-child(even) {
 }
 
 .col-direction {
-    width: 1%;
-    border-right: 1px solid Transparent !important;
+    width        : 1%;
+    border-right : 1px solid Transparent !important;
     padding-right: 0px !important;
 }
 
 .premium {
-    padding: 0px;
+    padding     : 0px;
     padding-left: 0px;
     margin-right: 10px;
 }
@@ -168,9 +172,14 @@ tr:nth-child(even) {
 }
 
 .para {
-    line-height: 30px;    
+    line-height: 30px;
 }
 
 .featurette-divider {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top   : 30px;
+}
+
+.bvhp {
+    color: #bc931f;
 }
