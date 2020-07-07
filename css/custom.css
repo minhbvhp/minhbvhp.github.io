@@ -32,9 +32,15 @@ body {
     }
 }
 
+@media(min-width: 1366px) {
+    .carousel-inner{
+        height: 420px;
+    }
+}
+
 @media(min-width: 1440px) {
     .carousel-inner{
-        height: 400px;
+        height: 450px;
     }
 }
 
@@ -81,8 +87,8 @@ footer {
 
 #chung-chi {
     position : fixed;
-    top      : 0.5rem;
-    right    : 0.5rem;
+    top      : 0.5em;
+    right    : 0.5em;
     max-width: 8%;
 }
 
@@ -103,7 +109,7 @@ footer {
 }
 
 .h1-custom {
-    font-size    : 1.7rem;
+    font-size    : 1.7em;
     margin-bottom: 40px;
     margin-top   : 0px;
 }
@@ -151,7 +157,7 @@ tr:nth-child(even) {
     font-style : italic !important;
 }
 
-.an-gia-premium, .an-gia-scope{
+.premium-smaller, .scope-smaller{
     font-size: smaller;
 }
 
@@ -182,4 +188,8 @@ tr:nth-child(even) {
 
 .bvhp {
     color: #bc931f;
+}
+
+.direction {
+    cursor: pointer;
 }
