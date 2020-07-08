@@ -1,5 +1,6 @@
 body {
-    color: black;
+    color         : black;
+    padding-bottom: 0px;
 }
 
 @media(max-width: 320px) {
@@ -82,7 +83,10 @@ a.nav-link:hover {
 }
 
 footer {
-    border-top: 1px solid #bc931f;
+    border-top      : 2px solid #bc931f;
+    background-color: #e3f2fd;;
+    padding         : 20px 0px 5px 0px !important;
+    margin-top      : 20px;
 }
 
 #chung-chi {
@@ -93,7 +97,7 @@ footer {
 }
 
 .carousel-item-custom {
-    margin-top: 1.5em;
+    margin-top: 1em;
 }
 
 .carousel-control-prev-icon {
@@ -106,6 +110,11 @@ footer {
 
 .carousel-indicators .active {
     background-color: #005baa;
+}
+
+.breadcrumb {
+    margin-top   : 1em;
+    margin-bottom: 2em;
 }
 
 .h1-custom {
