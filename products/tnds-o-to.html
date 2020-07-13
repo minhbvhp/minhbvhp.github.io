@@ -178,55 +178,42 @@
           <div id="collapseFour" class="collapse" aria-labelledby="headingFour">
             <div class="card-body para">
               <p>
-                Khách hàng mua bảo hiểm cho xe ô tô có thông tin chi tiết như sau:
+                Khách hàng mua bảo hiểm cho các xe ô tô có thông tin chi tiết như sau:
               </p>
 
               <table class="table scope-smaller table-bordered">
                 <thead class="bg-warning text-center">
                   <tr>
-                    <th class="align-middle" scope="col">Thông tin</th>
+                    <th class="align-middle" scope="col">#</th>
+                    <th class="align-middle" scope="col">Loại xe</th>
                     <th class="align-middle text-center" scope="col">Chi tiết</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td class="align-middle">Hãng xe</td>
-                    <td class="align-middle font-weight-bold">KIA</td>
+                    <th class="text-center align-middle" scope="row">1</th>
+                    <td class="align-middle">Xe không kinh doanh vận tải</td>
+                    <td class="align-middle">05 chỗ</td>
                   </tr>
 
                   <tr>
-                    <td class="align-middle">Mẫu xe</td>
-                    <td class="align-middle font-weight-bold">MORNING</td>
+                    <th class="text-center align-middle" scope="row">2</th>
+                    <td class="align-middle">Xe kinh doanh vận tải</td>
+                    <td class="align-middle">16 chỗ</td>
                   </tr>
 
                   <tr>
-                    <td class="align-middle">Năm sản xuất</td>
-                    <td class="align-middle font-weight-bold">2016</td>
+                    <th class="text-center align-middle" scope="row">3</th>
+                    <td class="align-middle">Xe tải</td>
+                    <td class="align-middle">05 tấn</td>
                   </tr>
 
                   <tr>
-                    <td class="align-middle">Số năm sử dụng</td>
-                    <td class="align-middle font-weight-bold">4</td>
+                    <th class="text-center align-middle" scope="row">4</th>
+                    <td class="align-middle">Đầu kéo</td>
+                    <td class="align-middle">36 tấn</td>
                   </tr>
-
-                  <tr>
-                    <td class="align-middle">Giá trị xe</td>
-                    <td class="align-middle font-weight-bold">400.000.000 VND</td>
-                  </tr>
-
-                  <tr>
-                    <td class="align-middle">Mức khấu trừ</td>
-                    <td class="align-middle font-weight-bold">500.000 VND/vụ</td>
-                  </tr>
-
-                  <tr>
-                    <td class="align-middle">Điều khoản bổ sung</td>
-                    <td class="align-middle font-weight-bold" rowspan="3">
-                      <li>Không trừ khấu hao thay mới</li>
-                      <li>Sửa chữa tại Gara chính hãng</li>
-                      <li>Xe bị ngập nước</li>
-                    </td>
-                  </tr>
+                  
                 </tbody>
               </table>
 
@@ -240,7 +227,8 @@
                 <thead class="bg-primary text-white text-center">
                   <tr>
                     <th class="align-middle" scope="col">#</th>
-                    <th class="align-middle" scope="col">Điều khoản</th>
+                    <th class="align-middle" scope="col">Loại xe</th>
+                    <th class="align-middle" scope="col">Chi tiết</th>
                     <th class="align-middle text-center" scope="col" colspan="2">Phí bảo hiểm (chưa gồm VAT)</th>
                   </tr>
                 </thead>
@@ -248,15 +236,16 @@
                 <tbody>
                   <tr>
                     <th class="text-center align-middle" scope="row">1</th>
-                    <td class="align-middle">Vật chất xe</td>
+                    <td class="align-middle">Xe không kinh doanh vận tải</td>
+                    <td class="align-middle">05 chỗ</td>
                     <td class="col-direction">
                       <i class="fa fa-chevron-down text-info direction" aria-hidden="true" data-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1"></i>
                     </td>
                     <td class="col-premium">
-                      <p class="premium">7.120.000 VND</p>
+                      <p class="premium">437.000</p>
                       <div class="collapse more-info text-secondary" id="collapse1">
                       <ul>
-                        <li>Không trừ khấu hao thay mới: 400.000.000 VND x 1,78%</li>
+                        <li>III.1 - Xe không kinh doanh vận tải dưới 06 chỗ ngồi</li>
                       </ul>
                       </div>
                     </td>
@@ -264,15 +253,16 @@
 
                   <tr>
                     <th class="text-center align-middle" scope="row">2</th>
-                    <td class="align-middle">Sửa chữa tại Gara chính hãng</td>
+                    <td class="align-middle">Xe kinh doanh vận tải</td>
+                    <td class="align-middle">16 chỗ</td>
                     <td class="col-direction">
                       <i class="fa fa-chevron-down text-info direction" aria-hidden="true" data-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapse2"></i>
                     </td>
                     <td class="col-premium">
-                      <p class="premium">712.000 VND</p>
+                      <p class="premium">3.054.000</p>
                       <div class="collapse more-info text-secondary" id="collapse2">
                       <ul>
-                        <li>Tăng thêm 10% phí: (1) x 10%</li>
+                        <li>IV.12 - Xe kinh doanh vận tải 16 chỗ ngồi theo đăng ký</li>
                       </ul>
                       </div>
                     </td>
@@ -280,15 +270,16 @@
 
                   <tr>
                     <th class="text-center align-middle" scope="row">3</th>
-                    <td class="align-middle">Xe bị ngập nước</td>
+                    <td class="align-middle">Xe tải</td>
+                    <td class="align-middle">05 tấn</td>
                     <td class="col-direction">
                       <i class="fa fa-chevron-down text-info direction" aria-hidden="true" data-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapse3"></i>
                     </td>
                     <td class="col-premium">
-                      <p class="premium">712.000 VND</p>
+                      <p class="premium">1.660.000</p>
                       <div class="collapse more-info text-secondary" id="collapse3">
                       <ul>
-                        <li>Tăng thêm 10% phí: (1) x 10%</li>
+                        <li>V.2 - Xe ô tô chở hàng (xe tải) từ 3 đến 8 tấn</li>
                       </ul>
                       </div>
                     </td>
@@ -296,19 +287,21 @@
 
                   <tr>
                     <th class="text-center align-middle" scope="row">4</th>
-                    <td class="align-middle"><strong>Tổng phí bảo hiểm</strong></td>
+                    <td class="align-middle">Đầu kéo</td>
+                    <td class="align-middle">36 tấn</td>
                     <td class="col-direction">
                       <i class="fa fa-chevron-down text-info direction" aria-hidden="true" data-toggle="collapse" href="#collapse4" role="button" aria-expanded="false" aria-controls="collapse4"></i>
                     </td>
                     <td class="col-premium">
-                      <strong class="premium">8.544.000 VND</strong>
+                      <p class="premium">4.800.000</p>
                       <div class="collapse more-info text-secondary" id="collapse4">
                       <ul>
-                        <li>(1) + (2) + (3)</li>
+                        <li>VI.4 - Đầu kéo rơ moóc: 3.200.000 x 150%</li>
                       </ul>
                       </div>
                     </td>
                   </tr>
+
                 </tbody>
               </table>
 
