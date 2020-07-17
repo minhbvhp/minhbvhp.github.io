@@ -138,15 +138,6 @@ footer {
     color: #555;
 }
 
-#zalo {
-    position: fixed;
-    bottom  : 60px;
-    right   : 1px;
-    z-index : 100;
-    cursor  : pointer;
-    padding : 10px;
-}
-
 .card-header {
     cursor: pointer;
 }
@@ -202,4 +193,16 @@ tr:nth-child(even) {
 
 .direction {
     cursor: pointer;
+}
+
+.zalo-chat-widget {
+    position: fixed !important;
+    bottom  : 60px !important;
+    right   : 1px !important;
+    z-index : 100 !important;
+    padding : 10px !important;
+}
+
+#drag-holder {
+    cursor: pointer !important;
 }
